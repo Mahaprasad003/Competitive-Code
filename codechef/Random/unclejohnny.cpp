@@ -15,13 +15,13 @@ int main()
 		}
 		cin>>k;
 		int john = arr[k-1];
-		int f = sizeof(arr) / n;
-		sort(arr, arr + f);
+		sort(arr, arr + n);
 		for(int i=0;i<n;i++)
 		{
 			if(arr[i]==john)
 			{
 				cout<<i+1<<endl;
+				break;
 			}
 		}
 
