@@ -19,19 +19,5 @@ int main()
 		int cnt = 0;
 
 		cout<<arr[n-1]-arr[0]<<endl;
-		// while(arr[0]!=high)
-		// {
-		// 	for(int j=0;j<n;j++)
-		// 	{
-		// 		if(arr[j]!=high)
-		// 		{
-		// 			arr[j] = arr[j]+1;
-		// 		}
-		//
-		// 	}
-		// 	cnt++;
-		// }
-		// cout<<cnt<<endl;
-
 	}
 }

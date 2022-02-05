@@ -1,0 +1,6 @@
+div.notion-frame > div.notion-scroller > div{
+  background-color: #00000000 !important;
+}
+.notion-scroller.vertical.horizontal > div:nth-child(2) {
+background: var(--theme--bg) !important
+}
