@@ -23,7 +23,7 @@ int main()
 				d++;
 			}
 		}
-		int prize_money = 100*x;
+		// int prize_money = 100*x;
 		int carlsen_total = 2*c;
 		int chef_total = 2*n;
 		if(carlsen_total>chef_total)
