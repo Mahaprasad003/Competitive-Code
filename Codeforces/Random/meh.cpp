@@ -3,6 +3,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void func(int);
+
+int main()
+{
+	cout<<"Enter n: ";
+	int n; cin>>n;
+	func(n);
+}
+
+
 void func(int n)
 {
 	int arr[n];
@@ -25,12 +35,4 @@ void func(int n)
 	{
 		cout<<fact[i]<<'\t';
 	}
-}
-
-int main()
-{
-	cout<<"Enter n: ";
-	int n; cin>>n;
-	func(n);
-
 }
